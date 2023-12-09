@@ -36,7 +36,7 @@ print(
 port = input(f"{BOLD}Enter Port Number: {RESET}")
 
 if (port == "" or port == " "):
-    port = 80
+    port = 8080
 
 print(f"{BLUE}Starting Server On{RESET} {CYAN}Localhost{RESET} Port: {port}")
 
